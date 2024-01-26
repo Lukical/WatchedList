@@ -1,0 +1,51 @@
+.title{
+    text-transform: capitalize;
+}
+.info-filme-box{
+    width: 100%;
+}
+.info-filme-container{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: center;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-filme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.info-img-filme{
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-filme-nome{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.info-filme-descricao{
+    margin-top: 10px;
+}
+.div-info-filme-add{
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-filme-add{
+    justify-content: center;
+    padding: 8px 12px;
+    background-color: #27388d;
+    border: #27388d;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: white;
+}

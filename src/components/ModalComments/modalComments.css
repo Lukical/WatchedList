@@ -1,0 +1,107 @@
+.modal .container2{
+    position: fixed;
+    max-width: 600px;
+    max-height: 600px;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.container2 main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    max-height: 450px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-right: 10px;
+}
+.container2 input{
+    background-color: #fff;
+    color: black;
+}
+
+.container2 label{
+    color: black;
+}
+.container2 .divLike{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.container2 .labelLike{
+    margin-right: 3px;
+}
+.container2 .inputComment{
+    display: flex;
+    margin-top: 10px;
+    position: absolute;
+    justify-content: center;
+    bottom: 15px;
+    width: 92%;
+}
+.container2 input{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    margin-right: 5px;
+}
+.container2 .sendButton{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 6px;
+    color: black;
+}
+.container2 .divComentario{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c4c4ce;
+    border-radius: 5px;
+    background-color: #c4c4ce;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+.container2 .userDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.container2 .fotoUser{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container2 label.nomeUser{
+    font-weight: bold;
+    cursor: pointer;
+}
+.textoDiv{
+    word-break: break-word;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+}
+.textoComentario{
+    cursor: text;
+}
+.container2 .trash{
+    color: black;
+}
+.userSpace{
+    display: flex;
+    justify-content: space-between;
+}
+.container2 .divBtnMore{ 
+    display: flex;
+    justify-content: center;
+}

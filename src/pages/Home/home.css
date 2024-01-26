@@ -1,0 +1,87 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1050px;
+    flex-direction: column;
+}
+.feedContainer{
+    display: flex;
+    background-color: #1b213c;
+    border-radius: 5px;
+    width: 800px;
+    height: 120px;
+    margin: 10px auto;
+    flex-direction: row;
+}
+.feedContent{
+    display: flex;
+    width: 100%;
+}
+.feedContent a img{
+    height: 100%;
+    width: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.feedContent a{
+    color: #3db4f2;
+}
+.feedContent a:hover{
+    color: #3db4f2;
+}
+.feedContent .fotoUser{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.labelContent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.labelContent label{
+    margin-bottom: 5px;
+}
+.socialDiv{
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.socialLabel{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+.likeLabel{
+    margin-right: 10px;
+}
+.socialButton, .deleteFeedButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.trash:hover{
+    color: red;
+}
+.like{
+    width: 15px;
+}
+.numberLikes{
+    font-size: 1.1em;
+    margin-right: 4px;
+}
+.deletePost{
+    display: flex;
+    margin-left: 10px;
+}
+.timeDiv{
+    display: flex;
+}

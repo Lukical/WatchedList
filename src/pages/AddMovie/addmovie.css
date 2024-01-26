@@ -1,0 +1,26 @@
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+}
+.tiposFilme{
+    display: flex;
+}
+.tiposFilme input{
+    width: 15px;
+}
+.imgDivFilme{
+    display: flex;
+}
+img.imgFilme{
+    margin-bottom: 1em;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnSalvar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

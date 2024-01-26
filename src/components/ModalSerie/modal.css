@@ -1,0 +1,106 @@
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+}
+.modal .container{
+    position: fixed;
+    max-width: 600px;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2em;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.close{
+    background-color: #f65835;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 15px;
+    color: #fff;
+}
+.close svg{
+    margin-right: 5px;
+}
+.modal h2{
+    margin-bottom: 1.2em;
+}
+.modal span{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+}
+.modal span i{
+    font-weight: 400;
+    margin-right: 1em;
+    padding: 2px 8px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.row{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.modal p{
+    padding-top: 0.5em;
+    white-space: pre-wrap;
+    line-height: 150%;
+}
+.save-button{
+    background-color: #3dc526;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    color: #fff;  
+}
+.delete-button{
+    background-color: #e70808;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 15px;
+    color: #fff;  
+}
+.modal .container select{
+    background-color: #1b213c;
+    color: #fff;
+    cursor: pointer;
+}
+.modal .container input{
+    background-color: #1b213c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.modal input, select{
+    margin-top: 5px;
+}

@@ -1,0 +1,103 @@
+.container{
+    background-color: #1b213c;
+    border-radius: 5px;
+    padding: 0.8em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.label-avatar{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.label-avatar input{
+    display: none;
+}
+
+.label-avatar span{
+    z-index: 99;
+    position: absolute;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.label-avatar span:hover{
+    opacity: 1;
+    transform: scale(1.4);
+}
+.input-labels{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    max-width: 500px;
+}
+.form-profile{
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-profile img{
+    margin-bottom: 1em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.form-profile label{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+.form-profile input, textarea, select{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.7em;
+    border: 0;
+    border-radius: 6px;
+}
+.input-labels input, textarea, select{
+    display: flex;
+}
+.form-profile input:disabled{
+    cursor: not-allowed;
+    background-color: #fff;
+}
+.form-profile{
+    display: flex;
+    justify-content: center;
+}
+.form-side{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.divBtnSalvar{
+    display: flex;
+    width: 100%;
+}
+.btnSalvar{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #27388d;
+    border: #27388d;
+    transition: all 0.5s ease-out;
+}
+.btnSalvar:hover{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: ease-in-out 0.4s;
+}
+a:hover{
+    color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,83 @@
+.mylistcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1050px;
+}
+.mylistUser{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mylistcontent{
+    width: 100%;
+    margin-left: 100px;
+}
+.mylistUser img{
+    margin-top: 30px;
+    width: 180px;
+    height: 200px;
+    margin-bottom: 1em;
+    border-radius: 25%;
+    object-fit: cover;
+}
+.mylistcontent table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: none;
+}
+.mylistcontainer tr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.mylistcontainer a tr:hover{
+    background-color: #ce692a;
+    border-radius: 10px;
+}
+.mylistcontainer th{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mylistcontainer td{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mylistcontainer table td{
+    text-align: center;
+}
+.mylistcontainer td img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+}
+.mylistcontainer .remove-button{
+    background-color: #e70808;
+    color: #fff; 
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.mylistcontainer .remove-button:hover{
+    padding: 7px 16px;
+    font-size: 1em;
+}
+.mylistcontainer .emptyLabel{
+    margin: auto;
+}
+.mylistcontainer .buttonAdd{
+    margin-top: 10px;
+    background-color: #27388d;
+    color: #fff; 
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 15px;
+}

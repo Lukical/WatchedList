@@ -1,0 +1,55 @@
+.topUsersContainer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.middleUsersContainer{
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.usersContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-gap: 25px;
+}
+.usersContainer .userLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.usersContainer .imgUser{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+.usersContainer .divNome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.usersContainer .nomeUser{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 599.98px) {
+    .usersContainer{
+        grid-template-columns: 230px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 819.98px) {
+    .usersContainer{
+        grid-template-columns: 230px 230px;
+    }
+}
+@media screen and (min-width: 820px) and (max-width: 1099.98px){
+    .usersContainer{
+        grid-template-columns: 230px 230px 230px;
+    }
+}
