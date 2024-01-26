@@ -33,6 +33,8 @@ export default function ModalComments({ conteudo, close }){
 
     function updateState(data){
         let arr = []
+        conteudo.commentary = data.length
+        console.log(data.length)
         data.forEach(async(dt)=>{
             let timePast = differenceInSeconds(new Date(), dt.created)
             arr.push({
