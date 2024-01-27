@@ -18,7 +18,7 @@ Executando o app:
 
 ## Integração
 
-Para o seu funcionamento foi utilizado o (WatchedListApi)[https://github.com/Lukical/WatchedListApi]
+Para o seu funcionamento foi utilizado o [WatchedListApi](https://github.com/Lukical/WatchedListApi)
 
 # Algumas telas do projeto
 
