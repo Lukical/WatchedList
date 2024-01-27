@@ -29,8 +29,11 @@ Para o seu funcionamento foi utilizado o [WatchedListApi](https://github.com/Luk
 ![imagem2](./screenshots/imagem2.png)
 
 ## Lista
-![imagem2](./screenshots/imagem3.png)
+![imagem3](./screenshots/imagem3.png)
 
 ## Series
-![imagem2](./screenshots/imagem4.png)
+![imagem4](./screenshots/imagem4.png)
+
+## Serie
+![imagem5](./screenshots/imagem5.png)
 
