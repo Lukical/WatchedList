@@ -16,16 +16,21 @@ Executando o app:
   npm start
 ```
 
+## Integração
+
+Para o seu funcionamento foi utilizado o (WatchedListApi)[https://github.com/Lukical/WatchedListApi]
+
 # Algumas telas do projeto
 
-# Home
+## Home
 ![imagem1](./screenshots/imagem1.png)
 
-# Perfil
+## Perfil
 ![imagem2](./screenshots/imagem2.png)
 
-# Lista
+## Lista
 ![imagem2](./screenshots/imagem3.png)
 
-# Series
+## Series
 ![imagem2](./screenshots/imagem4.png)
+
