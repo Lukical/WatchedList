@@ -1,0 +1,44 @@
+version: '3.3'
+
+services:
+  frontend:
+    container_name: frontend
+    build: ./app/
+    restart: always
+    ports:
+      - "3000:3000" # Porta em que o frontend será exposto
+    depends_on:
+      - backend
+    networks:
+      - wllappnetwork
+
+  backend:
+    container_name: backend
+    build: ./api/
+    restart: always
+    ports:
+      - "3003:3003" # Porta em que o backend será exposto
+    depends_on:
+      - database
+    networks:
+      - wllappnetwork
+
+  database:
+    container_name: database
+    build: ./mysql/
+    restart: always
+    env_file:
+      - ./config/db.env
+    ports:
+      - "3306:3306" # Porta em que o MySQL será exposto
+    volumes:
+      - mysql-data:/var/lib/mysql # Volume para persistir os dados do MySQL
+    networks:
+      - wllappnetwork
+
+volumes:
+  mysql-data:
+
+networks:
+  wllappnetwork:
+

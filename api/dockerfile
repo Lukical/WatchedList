@@ -1,0 +1,17 @@
+FROM node:20
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+RUN npm install -g sequelize-cli
+
+RUN npm install dotenv
+
+COPY . .
+
+EXPOSE 3003
+
+CMD [ "npm", "start" ]

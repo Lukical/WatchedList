@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schema.org/draft/2020-12/schema",
+    "title": "FollowsSchema",
+    "type": "object",
+    "properties": {
+        "followed_id": {
+            "type":"string"
+        }
+    },
+    "required": ["followed_id"]
+}

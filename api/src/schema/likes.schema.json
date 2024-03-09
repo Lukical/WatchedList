@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schema.org/draft/2020-12/schema",
+    "title": "LikeSchema",
+    "type": "object",
+    "properties": {
+        "feed_id": {
+            "type":"integer"
+        }
+    },
+    "required": ["feed_id"]
+}

@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json.schema.org/draft/2020-12/schema",
+    "title": "ListSchema",
+    "type": "object",
+    "properties": {
+        "series_id": {
+            "type":"integer"
+        },
+        "status": {
+            "type":"string"
+        },
+        "score": {
+            "type":"integer"
+        },
+        "episode": {
+            "type":"integer"
+        }
+    },
+    "required": ["series_id", "status", "score", "episode"]
+}

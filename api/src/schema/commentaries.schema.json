@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json.schema.org/draft/2020-12/schema",
+    "title": "CommentariesSchema",
+    "type": "object",
+    "properties": {
+        "feed_id": {
+            "type":"integer"
+        },
+        "commentary": {
+            "type":"string"
+        }
+    },
+    "required": ["feed_id", "commentary"]
+}
