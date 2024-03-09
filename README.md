@@ -6,19 +6,14 @@ O WatchedListApp é um app onde o usuário adiciona filmes, series e animes ao s
 
 ## Rodando Aplicação
 
-Instalando depêndencias
-```bash
-  npm install
-```
-
 Executando o app:
 ```bash
-  npm start
+  # Iniciar Container
+  docker-compose up -d
+
+  # Esperar inicialização do BD e executar:
+  docker-compose exec backend sequelize db:migrate
 ```
-
-## Integração
-
-Para o seu funcionamento foi utilizado o [WatchedListApi](https://github.com/Lukical/WatchedListApi)
 
 # Algumas telas do projeto
 
